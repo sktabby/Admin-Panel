@@ -14,6 +14,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# replace the url with your actual mongodb atlas id
 client = MongoClient("mongodb+srv://Tabish:Aqsashah7272@cluster1.4lodgpx.mongodb.net/")
 db = client["admin_db"]
 students_collection = db["students"]

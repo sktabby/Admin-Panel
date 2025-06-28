@@ -1,0 +1,29 @@
+# Ignore node_modules in frontend
+/frontend/node_modules
+/frontend/build
+
+# Ignore logs
+/frontend/npm-debug.log*
+/frontend/yarn-debug.log*
+/frontend/yarn-error.log*
+
+# Ignore dotenv files
+/frontend/.env
+/frontend/.env.local
+/frontend/.env.development.local
+/frontend/.env.test.local
+/frontend/.env.production.local
+
+# Ignore coverage and misc
+/frontend/coverage
+/frontend/.pnp
+/frontend/.pnp.js
+/frontend/.DS_Store
+
+# Ignore Python __pycache__ and virtualenv if any
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Ignore VSCode settings if using
+.vscode/
